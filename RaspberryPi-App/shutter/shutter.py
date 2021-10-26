@@ -45,7 +45,7 @@ while (True):
             print('stop recording..')
     
     if rec == True :
-        frame = cv2.flip(frame, 0)
+        # frame = cv2.flip(frame, 0)
         vid.write(frame)
 
 cap.release()
